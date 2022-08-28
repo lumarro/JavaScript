@@ -9,4 +9,3 @@ function moneda(x) {
     }
 }
 console.log(moneda());
-
