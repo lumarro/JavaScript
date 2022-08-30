@@ -1,5 +1,5 @@
 const emoji = []
-const array = ["👆", "👾", "📇", "👇", "🌁", "🍫", "🎨"]
+const array = ["📇", "🎨", "👾", "👆", "🍫", "🌁", "👇"]
 document.getElementById("arr").innerHTML = "["+emoji+"]";
 const ie = document.getElementById("ie");
 const is = document.getElementById("is");
