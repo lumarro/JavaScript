@@ -23,7 +23,7 @@ while (count1<3 && count2<3) {
         Computer="🥊"
     }
     if (player1>5) {
-        player="✂"
+        player1="✂"
     }
     if (Computer>5) {
         Computer="✂"
