@@ -10,22 +10,22 @@ while (count1<3 && count2<3) {
     if (Computer==0){
         Computer=Math.floor(Math.random()*10);
     }
-    if (player1>0 && player1<3) {
+    if (player1>0 && player1<4) {
         player1="🖐"
     }
-    if (Computer>0 && Computer<3) {
+    if (Computer>0 && Computer<4) {
         Computer="🖐"
     }
-    if (player1>2 && player1<6) {
+    if (player1>3 && player1<7) {
         player1="🥊"
     }
-    if (Computer<6 && Computer>2) {
+    if (Computer<7 && Computer>3) {
         Computer="🥊"
     }
-    if (player1>5) {
+    if (player1>6) {
         player1="✂"
     }
-    if (Computer>5) {
+    if (Computer>6) {
         Computer="✂"
     }
     if (player1==Computer) {
