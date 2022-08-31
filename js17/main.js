@@ -13,7 +13,7 @@ while (count1<3 && count2<3) {
     if (player1>0 && player1<3) {
         player1="🖐"
     }
-    if (player1>0 && Computer<3) {
+    if (Computer>0 && Computer<3) {
         Computer="🖐"
     }
     if (player1>2 && player1<6) {
