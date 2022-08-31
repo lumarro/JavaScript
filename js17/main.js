@@ -1,4 +1,3 @@
-
 document.write("<h1>🏁Que comience el juego🏁</h1>");
 let count1=0;
 let count2=0;
