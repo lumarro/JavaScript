@@ -8,19 +8,10 @@ console.log(arr1.some(piña));
 console.log(arr1.filter(pizza));
 
 const arr2=["🍓","🍋","🍓","🍋","🍓"];
-arr2.map(item => {
-    switch(item) {
-        case "🍓":
-            console.log("🍄");
-            break;
-        case "🍋":
-            console.log("🍋");
-            break;
-
-        deafult:
-            break;
-    }
-});
+for (let y=0; y<arr2.length; y=y+2) {
+    arr2.splice(y,1,"🍄");
+}
+console.log(arr2);
 
 const arr3=["🌶️","🥛","🌶️","🥛","🌶️","🥛"];
 for (let i=0; i<arr3.length; i++) {

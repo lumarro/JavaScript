@@ -7,37 +7,37 @@ const ia = document.getElementById("ia");
 const re = document.getElementById("re");
 const rs = document.getElementById("rs");
 const ra = document.getElementById("ra");
-const num1 = document.getElementById("num1").value;
-const num2 = document.getElementById("num2").value;
-ie.onclick = function() {
+ie.onclick = () => {
     if (emoji.length<array.length) {
         emoji.push(array[emoji.length]);
         document.getElementById("arr").innerHTML = "["+emoji+"]";
     }
 }
 
-is.onclick = function() {
+is.onclick = () => {
     if (emoji.length<array.length) {
         emoji.unshift(array[emoji.length]);
         document.getElementById("arr").innerHTML = "["+emoji+"]";
     }
 };
-ia.onclick = function() {
+ia.onclick =() => {
     if (emoji.length<array.length) {
+        const num1 = document.getElementById("num1").value;
         emoji.splice(num1,0,array[emoji.length]);
         document.getElementById("arr").innerHTML = "["+emoji+"]";
     }
 };
-re.onclick = function() {
+re.onclick = () => {
     emoji.pop();
     document.getElementById("arr").innerHTML = "["+emoji+"]";
 };
-rs.onclick = function() {
+rs.onclick = () => {
     emoji.shift();
     document.getElementById("arr").innerHTML = "["+emoji+"]";
 };
-ra.onclick = function() {
+ra.onclick = () => {
     if (emoji.length<=array.length) {
+        const num2 = document.getElementById("num2").value;
         emoji.splice(num2,1);
         document.getElementById("arr").innerHTML = "["+emoji+"]";
     }
