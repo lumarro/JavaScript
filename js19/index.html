@@ -10,8 +10,17 @@
     <!--Link al archivo style.css-->
     <link rel="stylesheet" href="./style.css" />
 </head>
-<body>
-    <div class="m-2"><p class="container-fluid bg-warning text-center">Bienvenido/a, este es un juego de azar donde por cada ronda se le otorgaran numeros aleatorios a player1 y a Computer asociados con piedra papel y tijera. Gana el primero que gane tres rondas. Cada vez que recargas la página se crea una nueva partida.</p></div>
+<body class="bg-black container-fluid">
+    <div class="row pt-4">
+        <div class="col d-flex justify-content-center">
+            <div id="div-1" style="height:10vmin; width: 10vmin;"><img id="btn" onclick="switchon()" style="height:10vmin; width: 10vmin;" src="./boff.jpg" alt="Boton"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <div id="div-2" style="height:78.5vmin; width: 60vmin;"><img id="bulb" style="height:78.5vmin; width: 60vmin;" src="./off.jpg" alt="bombilla"></div>
+        </div>
+    </div>   
     <!--Link a bootstrap tendre que buscar info ATENCION PONER ESTOS EN EL BODY MEJOR-->
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
