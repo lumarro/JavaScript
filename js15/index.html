@@ -10,25 +10,26 @@
     <!--Link al archivo style.css-->
     <link rel="stylesheet" href="./style.css" />
 </head>
-<body class="container-fluid">
-    <div class="border border-3 my-3" style="height: 85px; width: 350px">
-    <div class="mb-2 ms-2">Add Item</div>
-    <div class="ms-2">
-        <button type="button" class="btn btn-secondary" id="ie">push</button>
-        <button type="button" class="btn btn-secondary" id="is">unshift</button>
-        <button type="button" class="btn btn-secondary" id="ia">insert at</button>
-        <input type="number" name="num1" style="width:40px;" min="0" max="6" id="num1">
-    </div>
-    </div>
-    <div class="border border-3" style="height: 85px; width: 350px">
-    <div class="mb-2 ms-2">Remove Item</div>
-    <div class="ms-2">
-        <button type="button" class="btn btn-secondary" id="re">pop</button>
-        <button type="button" class="btn btn-secondary" id="rs">shift</button>
-        <button type="button" class="btn btn-secondary" id="ra">remove at</button>
-        <input type="number" name="num2" style="width:40px;" min="0" max="6" id="num2">
-    </div>
-    </div>
+<body>
+    <form style="height: 85px; width: 270px">
+        <fieldset>
+            <legend>Add Item</legend>
+                <button type="button" id="ie">push</button>
+                <button type="button" id="is">unshift</button>
+                <button type="button" id="ia">insert at</button>
+                <input type="number" name="num1" style="width:40px;" min="0" max="6" id="num1">
+            
+        </fieldset>
+    </form>
+    <form style="height: 85px; width: 270px">
+        <fieldset>
+        <legend>Remove Item</legend>
+            <button type="button" id="re">pop</button>
+            <button type="button" id="rs">shift</button>
+            <button type="button" id="ra">remove at</button>
+            <input type="number" name="num2" style="width:40px;" min="0" max="6" id="num2">
+        </fieldset>
+    </form>
     <p id="arr"></p>
     
     <!--Link a bootstrap tendre que buscar info ATENCION PONER ESTOS EN EL BODY MEJOR-->
