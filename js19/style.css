@@ -10922,10 +10922,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.red {
-  color: red;
+form {
+  position: absolute;
+  top: 20%;
+  left: 55%;
 }
 
-.blue {
-  color: blue;
+label {
+  font-size: 2.3vmin;
+}
+
+input {
+  width: 22vmin;
+  height: 3.5vmin;
 }/*# sourceMappingURL=style.css.map */
