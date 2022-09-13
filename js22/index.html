@@ -11,13 +11,19 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body class="container-fluid">
-    
-    <!--Link a bootstrap tendre que buscar info ATENCION PONER ESTOS EN EL BODY MEJOR-->
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous">
-    </script>
+    <div class="nes-container is-rounded">
+        <div id="chuck" class="nes-container is-dark is-rounded">
+        </div>
+        <button id="btn" type="button" class="nes-btn is-error" onclick="cambio()">
+            Next
+        </button>
+    </div>
+    <!-- minificado -->
+    <link href="https://unpkg.com/nes.css@2.2.0/css/nes.min.css" rel="stylesheet" />
+    <!-- último -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <!-- solo estilo del núcleo -->
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
     <!--jQuery-->
     <script
         src="https://code.jquery.com/jquery-3.6.1.min.js"

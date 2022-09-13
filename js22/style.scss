@@ -1,14 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-form{
-    position:absolute;
-    top:20%;
-    left:55%;
-}
-label{
-    font-size:2.3vmin;   
-}
-input{
-    width:22vmin;
-    height:3.5vmin;
+.nes-container {
+    border: dotted;
 }
