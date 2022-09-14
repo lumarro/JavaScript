@@ -1,15 +1,14 @@
-const url ='https://api.chucknorris.io/jokes/random';
-const chuck = document.getElementById("chuck");
-const btn = document.getElementById("btn");
-
-fetch(url)
-    .then(response => response.json())
-    .then(json => saveResult(json));
-
-function saveResult(json){
-    chuck.innerHTML= json.value;
+async function fetchMoviesJSON() {
+    const response = await fetch('https://api.chucknorris.io/jokes/random');
+    const jsonResponse = await response.json();
+    return jsonResponse;
 }
+fetchMoviesJSON().then(json => {
+    document.getElementById("chuck").innerHTML = json.value;
+});
 
-function cambio(json) {
-    chuck.innerHTML="<p>ssh</p>";
+function cambio() {
+    fetchMoviesJSON().then(json => 
+        {document.getElementById("chuck").innerHTML = json.value;
+    });
 }
